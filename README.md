@@ -1,0 +1,2 @@
+# Portfolio
+Ipari iformatikai portfolio
