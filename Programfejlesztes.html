@@ -6,18 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programfejlesztés</title>
     <link rel="stylesheet" href="style.css">
+    <script src="Java.js"></script>
 </head>
 <body>
-        <img src="Programozás1.png" alt="a hiba az ön készülékében van">
-    <img src="Programozás2.png" alt="a hiba az ön készülékében van">
-    <img src="Programozás3.png" alt="a hiba az ön készülékében van">
-    <img src="Programozás4.png" alt="a hiba az ön készülékében van">
-    <p></p>
-    <img src="Programozás5.png" alt="a hiba az ön készülékében van">
-    <img src="Programozás6.png" alt="a hiba az ön készülékében van">
-    <img src="Programozás9.png" alt="a hiba az ön készülékében van">
-    <img src="Programozás10.png" alt="a hiba az ön készülékében van">
-    <p></p>
+    <div class="row">
+        <div class="column">
+          <img src="Programozás1.png" alt="a hiba az ön készülékében van" onclick="myFunction(this);" class="kep">
+        </div>
+        <div class="column">
+          <img src="Programozás2.png" alt="a hiba az ön készülékében van" onclick="myFunction(this);" class="kep">
+        </div>
+        <div class="column">
+            <img src="Programozás3.png" alt="a hiba az ön készülékében van" onclick="myFunction(this);" class="kep">
+        </div>
+        <div class="column">
+            <img src="Programozás4.png" alt="a hiba az ön készülékében van" onclick="myFunction(this);" class="kep">
+        </div>
+      </div>
+    
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <img id="expandedImg" style="width:100%">
+      
+        <div id="imgtext"></div>
+      </div>
     <div>
         <h1>Önreflexio</h1>
         <p>Ezt a tantárgyat a Python-os tudásom egysere könnyítetté és nehezítette meg egyaránt. Valamint az internetes oldalak nagy segítséget nyújtottak elsősorban a W3schools.com.</p>
